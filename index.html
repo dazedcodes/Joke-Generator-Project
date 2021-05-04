@@ -4,17 +4,23 @@
   <title>Dad Joke Generator</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="stylesheet" href="/styles.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins&family=Questrial&display=swap"
+    rel="stylesheet"
+  />
   <!-- <style></style> -->
   <body>
     <!-- <img src="img_la.jpg" alt="LA" style="width: 100%;" /> -->
     <div class="flex-container">
-      <div class="flex-item">
+      <div class="flex-item" id="left">
         <h1>Dad Joke Generator</h1>
         <p>The one stop shop for eyeroll-worth puns, laughs, and goofs.</p>
         <button type="button" name="button">Make me cringe!</button>
       </div>
 
-      <div class="flex-item">
+      <div class="flex-item" id="right">
         <p class="dad-joke">
           We'll put our corny Dad joke and the image description here on the
           right.
@@ -23,8 +29,6 @@
           class="joke-image"
           src="../images/drake-face.png"
           alt="A picture of Drake smiling."
-          width="200px"
-          height="200px"
         />
       </div>
     </div>
